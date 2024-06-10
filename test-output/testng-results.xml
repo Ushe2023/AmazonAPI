@@ -2,16 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-05T17:46:53 IST" name="Default suite" finished-at="2024-06-05T17:47:15 IST" duration-ms="22156">
+  <suite started-at="2024-06-10T10:11:24 IST" name="Default suite" finished-at="2024-06-10T10:11:27 IST" duration-ms="3142">
     <groups>
     </groups>
-    <test started-at="2024-06-05T17:46:53 IST" name="Default test" finished-at="2024-06-05T17:47:15 IST" duration-ms="22156">
-      <class name="AmazonTestCase.TestCases">
-        <test-method signature="putMethod()[pri:0, instance:AmazonTestCase.TestCases@53ce1329]" started-at="2024-06-05T17:46:53 IST" name="putMethod" finished-at="2024-06-05T17:47:15 IST" duration-ms="22108" status="PASS">
+    <test started-at="2024-06-10T10:11:24 IST" name="Default test" finished-at="2024-06-10T10:11:27 IST" duration-ms="3142">
+      <class name="com.bcd.validations.ResponseValidations">
+        <test-method is-config="true" signature="CreateReport()[pri:0, instance:com.bcd.validations.ResponseValidations@60bd273d]" started-at="2024-06-10T10:11:24 IST" name="CreateReport" finished-at="2024-06-10T10:11:24 IST" duration-ms="306" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- putMethod -->
-      </class> <!-- AmazonTestCase.TestCases -->
+        </test-method> <!-- CreateReport -->
+        <test-method signature="HeaderValidation()[pri:0, instance:com.bcd.validations.ResponseValidations@60bd273d]" started-at="2024-06-10T10:11:24 IST" name="HeaderValidation" finished-at="2024-06-10T10:11:27 IST" duration-ms="2433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HeaderValidation -->
+        <test-method is-config="true" signature="Report()[pri:0, instance:com.bcd.validations.ResponseValidations@60bd273d]" started-at="2024-06-10T10:11:27 IST" name="Report" finished-at="2024-06-10T10:11:27 IST" duration-ms="363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Report -->
+      </class> <!-- com.bcd.validations.ResponseValidations -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

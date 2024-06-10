@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AmazonTestCase.TestCases">
+      <class name="com.bcd.validations.ResponseValidations">
         <methods>
-          <include name="putMethod"/>
+          <include name="Report"/>
+          <include name="HeaderValidation"/>
+          <include name="CreateReport"/>
         </methods>
-      </class> <!-- AmazonTestCase.TestCases -->
+      </class> <!-- com.bcd.validations.ResponseValidations -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
